@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "no-async-without-await"
+  ],
+  "rules": {
+    "max-len": [
+      2,
+      120
+    ],
+    "no-async-without-await/no-async-without-await": 2
+  }
+}

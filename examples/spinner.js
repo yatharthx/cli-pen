@@ -15,3 +15,5 @@ setTimeout(() => {
 setTimeout(() => { spinner.color = 'yellow'; }, 5000);
 setTimeout(() => { spinner.text = 'Maps loaded.'; }, 8000);
 setTimeout(() => { spinner.succeed(); }, 9000);
+
+// Usage: node spinner.js <spinner-name>

@@ -3,7 +3,7 @@
   "version": "0.1.0-alpha.0",
   "description": "Elegant CLI helper for NodeJS terminal apps.",
   "license": "MIT",
-  "repository": "yatharthk/node-pen",
+  "repository": "yatharthk/cli-pen",
   "author": {
     "name": "Yatharth Khatri",
     "email": "yatharth01@gmail.com"

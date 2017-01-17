@@ -57,6 +57,10 @@ class Spinner {
   }
 
   start() {
+    if (this.id) {
+      return this;
+    }
+
     this.currentFrame = 0;
     this.render();
     this.id = setInterval(this.render.bind(this), this.interval);

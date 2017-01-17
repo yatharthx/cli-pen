@@ -1,4 +1,4 @@
-# cli-pen
+# cli-pen [![Build Status](https://travis-ci.org/yatharthk/cli-pen.svg?branch=master)](https://travis-ci.org/yatharthk/cli-pen) [![Coverage Status](https://coveralls.io/repos/github/yatharthk/cli-pen/badge.svg?branch=master)](https://coveralls.io/github/yatharthk/cli-pen?branch=master)
 > Elegant CLI helper for NodeJS terminal apps.
 
 **Note**: APIs may change in near future releases. The APIs are expected to get stable after the first major release (v1.0.0). You can help improve the APIs / API format by raising an issue.

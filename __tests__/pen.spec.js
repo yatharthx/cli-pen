@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { PassThrough as PassThroughStream } from 'stream';
 import getStream from 'get-stream';
 import stripAnsi from 'strip-ansi';
@@ -7,7 +6,7 @@ import { Pen } from '../lib';
 
 const getPassThroughStream = () => new PassThroughStream();
 
-test('should create a `Pen`', async (t) => {
+test('should create a `Pen`', (t) => {
   const pen = Pen();
   t.truthy(pen);
 });
@@ -25,7 +24,7 @@ test('should write with specified `format`', async (t) => {
   stream.end();
   const output = stripAnsi(await getStream(stream));
 
-  t.is(output, `info foo`);
+  t.is(output, 'info foo');
 });
 
 test('`.error() should write error message`', async (t) => {

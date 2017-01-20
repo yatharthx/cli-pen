@@ -1,6 +1,6 @@
 {
   "name": "cli-pen",
-  "version": "0.1.0",
+  "version": "0.1.12-0",
   "description": "Elegant CLI helper for NodeJS terminal apps.",
   "license": "MIT",
   "repository": "yatharthk/cli-pen",
@@ -51,6 +51,7 @@
     "strip-ansi": "^3.0.1"
   },
   "dependencies": {
+    "babel-runtime": "^6.20.0",
     "chalk": "^1.1.3",
     "cli-cursor": "^1.0.2",
     "cli-spinners": "^0.3.0",

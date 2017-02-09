@@ -16,7 +16,7 @@ Currently, the tools provided by **cli-pen** include:
 ## Pen
 A pen is a simple console utility to replace your `console.log` usage in the NodeJS terminal apps.
 
-<img src="/screenshot-pen.gif">
+![Pen example GIF](/screenshot-pen.gif)
 
 ## Usage
 ```js
@@ -116,7 +116,7 @@ A typical options parameter example would be like:
 ## ProgressBar
 A simple **ProgressBar** for terminal apps.
 
-<img src="/screenshot-progressbar.gif">
+![ProgressBar example GIF](/screenshot-progressbar.gif)
 
 ## Usage
 ```js
@@ -140,7 +140,7 @@ A single call on tick increments the progress by `1`. If an optional `progress` 
 ## Spinner
 A simple **Spinner** for terminal apps.
 
-<img src="/screenshot-spinner.gif">
+![Spinner example GIF](/screenshot-spinner.gif)
 
 ## Usage
 ```js

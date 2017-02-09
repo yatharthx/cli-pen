@@ -1,6 +1,6 @@
 {
   "name": "cli-pen",
-  "version": "0.1.12-0",
+  "version": "0.1.12-2",
   "description": "Elegant CLI helper for NodeJS terminal apps.",
   "license": "MIT",
   "repository": "yatharthk/cli-pen",
